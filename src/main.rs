@@ -44,9 +44,9 @@ fn main() {
 }
 
 fn get_biggest(vec: &Vec<u32>) -> u32 {
-    **vec.iter().max().unwrap()
+    *vec.iter().max().unwrap()
 }
 
 fn get_smallest(vec: &Vec<u32>) -> u32 {
-    **vec.iter().min().unwrap()
+    *vec.iter().min().unwrap()
 }
